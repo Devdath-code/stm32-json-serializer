@@ -70,4 +70,6 @@ No hardware connection is required.
 ---
 
 ## Notes
-This project demonstrates a realistic embedded firmware task focused on clean architecture, deterministic memory usage, and reliable data serialization.
+- The maximum JSON size depends on the number of devices and data points; for the demo configuration, a 512-byte buffer is sufficient.
+- This project demonstrates a realistic embedded firmware task focused on clean architecture, deterministic memory usage, and reliable data serialization.
+
